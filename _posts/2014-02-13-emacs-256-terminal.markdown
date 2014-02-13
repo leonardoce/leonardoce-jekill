@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Emacs on the terminal"
+title:  "Emacs in the terminal"
 categories: emacs
 ---
 

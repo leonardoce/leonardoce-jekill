@@ -1,3 +1,3 @@
 * ZSH menu, prompt and autocd
 * http://worrydream.com/MagicInk/
-* red beam cursor
+* how to install my pharo theme
