@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iliad Framework, on controllers"
-date:   2014-02-13 21:28:24
+date:   2014-02-14 21:28:24
 categories: programming smalltalk
 ---
 
