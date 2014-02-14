@@ -8,8 +8,8 @@ categories: programming smalltalk
 Hi. In this post we will create a basic web application using the
 Iliad Framework. 
 
-Please consult the previous posts if you need to install the web
-framework in your image.
+Please consult the [previous post][previous-post] if you need to
+install the web framework in your image.
 
 An Iliad web application consists in a class that extends from
 `ILApplication` so lets create one:
@@ -28,7 +28,8 @@ configure the starting point for our web app we need to override the
 
 {% highlight smalltalk %}
 "LcBlogHelloIliad class>>path"
-	^ 'leonardoBlog'
+path
+    ^ 'leonardoBlog'
 {% endhighlight %}
 
 Every Iliad Application implements the Front Controller partner. This
@@ -41,7 +42,8 @@ controller on the instance side of our `LcBlogHelloIliad` class,
 remember to put this method on the `controllers` protocol:
 
 {% highlight smalltalk %}
-"LcBlogHelloIliad>>index"
+"LcBlogHelloIliad>>index protocol controllers"
+index
     ^ [ :e | e h1: 'Hi world!' ]
 {% endhighlight %}
 
@@ -57,3 +59,5 @@ blocks of code. In the example I returned a block that, from an
 Please browse the code from the `ILHTMLBuilderElement` class. You will
 find many useful methods to create basically every HTML element you
 want.
+
+[previous-post]: {% post_url 2014-02-12-iliad-introduction %}
