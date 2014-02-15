@@ -12,7 +12,7 @@ are missing.
 In effect ArchLinux doesn't have these commands on a base install but
 you can install them using:
 
-{% highlight shell %}
+{% highlight console %}
 pacman -S net-tools
 {% endhighlight %}
 
@@ -23,7 +23,7 @@ default? Answer: they have alternative tools.
 These alternative tools are [ss][ss-man-page] and
 [ip][ip-man-page]. This is an example:
 
-{% highlight shell %}
+{% highlight console %}
 $ ss -l | grep tcp
 nl     UNCONN     4352   0              tcpdiag:ss/27803                *
 nl     UNCONN     768    0              tcpdiag:kernel                 *
@@ -42,7 +42,7 @@ tcp    LISTEN     0      128                 :::ssh                  :::*
 
 and you can use `ip` like this:
 
-{% highlight shell %}
+{% highlight console %}
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
