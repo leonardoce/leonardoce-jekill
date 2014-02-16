@@ -58,7 +58,7 @@ As you may see these actions barely increment and decrement the value
 using the accessor method and then call the `markDirty` method, who
 means that the component has to be redrawn on the client side.
 
-Now we have to modify the `contents` method to display the value of
+Now we need to modify the `contents` method to display the value of
 the counter on the page:
 
 {% highlight smalltalk %}
