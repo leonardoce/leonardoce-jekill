@@ -48,7 +48,7 @@ composed by widgets I was actually right because also the
 To attach out widget to the application we will add an instance
 variable to the application class to store the widget instance:
 
-dget**. Every page server by the Iliad
+Every page server by the Iliad
 framework is composed by widgets, as widget are written on the page as
 HTML tags. A widget is:
 
@@ -77,7 +77,7 @@ method of the widget class:
 {% highlight smalltalk %}
 "LcCounterWidget>>firstWidget protocol building"
 contents
-^ [ :e | e p text:'I''m a widget!' ]
+	^ [ :e | e p text:'I''m a widget!' ]
 {% endhighlight %}
 
 Create a new accessor for the `firstWidget` component that create the
