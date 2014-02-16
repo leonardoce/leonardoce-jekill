@@ -75,11 +75,9 @@ The contents of a widget must be defined overriding the `contents`
 method of the widget class:
 
 {% highlight smalltalk %}
-ILApplication subclass: #LcBlogHelloIliad
-    instanceVariableNames: 'firstWidget'
-    classVariableNames: ''
-    poolDictionaries: ''
-    category: 'LeonardoBlog'
+"LcCounterWidget>>firstWidget protocol building"
+contents
+^ [ :e | e p text:'I''m a widget!' ]
 {% endhighlight %}
 
 Create a new accessor for the `firstWidget` component that create the
