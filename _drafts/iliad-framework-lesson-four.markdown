@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iliad Framework, reacting to events"
-date:   2014-02-12 21:28:24
+date:   2014-02-17 21:28:24
 categories: programming smalltalk
 ---
 
