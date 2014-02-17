@@ -49,7 +49,7 @@ the same between the two links.
 Now I will click on the `++` link and capture the Ajax request and the
 server response for you:
 
-    GET http://localhost:7070/leonardoBlog/widgetExample?_action=45927&_state=0261dc5b
+    GET http://localhost:7070/leonardoBlog/widgetExample?_action=45927&_state=71db1789
     Accept:application/json, text/javascript, */*; q=0.01
     Accept-Encoding:gzip,deflate,sdch
     Accept-Language:en-US,en;q=0.8,it;q=0.6
@@ -65,7 +65,7 @@ server response for you:
 	"widgets":
 	    {
 		  "45926":
-		  "<div class=\"45926\"><p>1</p><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45934&amp;_state=0261dc5b&quot;);\">++</a><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45935&amp;_state=0261dc5b&quot;);\">--</a></div>"
+		  "<div class=\"45926\"><p>1</p><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45934&amp;_state=71db1789&quot;);\">++</a><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45935&amp;_state=71db1789&quot;);\">--</a></div>"
 	    }
 	}
 
@@ -79,34 +79,6 @@ that which widgets must be redrawn using the `markDirty` method.
 The meaning of the `action` and of the `class` fields should now be
 clear to you.
 
-We are missing the role of the `state` parameter.
-
-This time I will invoke the same request using a verbose curl
-invocation:
-
-{% highlight console %}
-$ curl 'http://localhost:7070/leonardoBlog/widgetExample?_action=45927&_state=0261dc5b' -H 'Cookie: _iliad685744=587b7bac-82f8-4e95-84bc-7a39b13aa458' -H 'Accept-Encoding: gzip,deflate,sdch' -H 'Host: localhost:7070' -H 'Accept-Language: en-US,en;q=0.8,it;q=0.6' -H 'User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36' -H 'Accept: application/json, text/javascript, */*; q=0.01' -H 'Referer: http://localhost:7070/leonardoBlog/widgetExample' -H 'X-Requested-With: XMLHttpRequest' -H 'Connection: keep-alive' --compressed --verbose
-> GET /leonardoBlog/widgetExample?_action=45927&_state=0261dc5b HTTP/1.1
-> Cookie: _iliad685744=587b7bac-82f8-4e95-84bc-7a39b13aa458
-> Accept-Encoding: gzip,deflate,sdch
-> Host: localhost:7070
-> Accept-Language: en-US,en;q=0.8,it;q=0.6
-> User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
-> Accept: application/json, text/javascript, */*; q=0.01
-> Referer: http://localhost:7070/leonardoBlog/widgetExample
-> X-Requested-With: XMLHttpRequest
-> Connection: keep-alive
->
-< HTTP/1.1 200 OK
-< Date: Sun, 16 Feb 2014 22:00:00 GMT
-< expires: Sun, 16 Feb 2014 23:00:00 GMT
-< Server: KomHttpServer/7.1.3 (unix)
-< Cache-Control: no-store, no-cache, must-revalidate
-< Connection: close
-< Content-type: application/json
-< Content-length: 355
-<
-* Closing connection #0
-{"head": [], "widgets": {"45926": "<div class=\"45926\"><p>2</p><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45937&amp;_state=0261dc5b&quot;);\">++</a><a href=\"javascript:{}\" onclick=\"iliad.evaluateAction(&quot;/leonardoBlog/widgetExample?_action=45938&amp;_state=0261dc5b&quot;);\">--</a></div>"}}
-{% endhighlight %}
-
+The `state` parameter, as you may see, doesn't change between action
+invokations. Its role is managing multiple windows for the same
+session, ex when you have multiple tabs opened for the same session.
