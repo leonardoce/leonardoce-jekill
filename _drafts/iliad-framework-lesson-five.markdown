@@ -81,4 +81,7 @@ clear to you.
 
 The `state` parameter, as you may see, doesn't change between action
 invokations. Its role is managing multiple windows for the same
-session, ex when you have multiple tabs opened for the same session.
+session, for example when you have multiple tabs opened for the same
+session. When you have multiple tabs opened for the same session every
+tab has a different value for the `state` parameter.
+
