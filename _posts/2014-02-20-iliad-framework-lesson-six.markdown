@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iliad Framework, what if I don't have Javascript?"
-date:   2014-02-18 21:28:24
+date:   2014-02-20 21:28:24
 categories: programming smalltalk
 ---
 
