@@ -5,7 +5,7 @@ date:   2014-02-21 21:28:24
 categories: programming smalltalk
 ---
 
-Have you seen my custom Pharo theme [here][pharo-theme-address]? If
+Have you seen my custom Pharo theme [here][pharo-theme-address]? If
 you don't want to use the link you can see a screenshot:
 
 ![Configuration browser, Iliad]({{ site.url }}/assets/pharo-config-browser-iliad.png)
