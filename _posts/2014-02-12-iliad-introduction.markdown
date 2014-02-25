@@ -74,6 +74,7 @@ You loaded the Iliad web framework in your image and started the
 embedded web server. In the next post we will build a new web
 application.
 
+The next article is [here][next-article]
 
 [iliad-web]: http://www.iliadproject.org/
 [pharo-web]: http://www.pharo-project.org/
@@ -81,3 +82,4 @@ application.
 [pharo-by-example]: http://pharobyexample.org/
 [deep-into-pharo]: http://www.deepintopharo.com/
 [browse-link]: http://localhost:7070/browse
+[next-article]: {% post_url 2014-02-13-iliad-lesson-one %}

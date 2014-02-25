@@ -84,3 +84,7 @@ session, for example when you have multiple tabs opened for the same
 session. When you have multiple tabs opened for the same session every
 tab has a different value for the `state` parameter.
 
+The next article is [here][next-post].
+
+[previous-post]: {% post_url 2014-02-17-iliad-framework-lesson-four %}
+[next-post]:  {% post_url 2014-02-20-iliad-framework-lesson-six %}

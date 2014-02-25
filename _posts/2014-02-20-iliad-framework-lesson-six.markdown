@@ -5,6 +5,10 @@ date:   2014-02-20 21:28:24
 categories: programming smalltalk
 ---
 
+In the [previous post][previous-post] we talked about how events are
+implemented, and you saw that actions are implemented with Javascript
+code.
+
 Really? You want to keep Javascript off your browsing experience?
 Firefox, in the new releases, even don't have a setting to disable
 Javascript without installing a plugin.
@@ -21,3 +25,4 @@ Now disable Javascript in your browser and see your application
 working application without browser. This is part of the Iliad
 goodness!
 
+[previous-post]: {% post_url 2014-02-18-iliad-framework-lesson-five %}

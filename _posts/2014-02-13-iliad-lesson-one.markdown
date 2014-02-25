@@ -60,4 +60,7 @@ Please browse the code from the `ILHTMLBuilderElement` class. You will
 find many useful methods to create basically every HTML element you
 want.
 
+The next article is [here][next-post]
+
 [previous-post]: {% post_url 2014-02-12-iliad-introduction %}
+[next-post]: {% post_url 2014-02-14-iliad-lesson-two %}

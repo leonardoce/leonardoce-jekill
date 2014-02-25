@@ -52,5 +52,7 @@ index
     e a linkToLocal: 'firstTest'; text: 'Go to firstTest controller' ]
 {% endhighlight %}
 
+The next post is [here][next-post].
 
 [previous-post]: {% post_url 2014-02-13-iliad-lesson-one %}
+[next-post]:  {% post_url 2014-02-16-iliad-lesson-three %}

@@ -5,6 +5,8 @@ date:   2014-02-17 21:28:24
 categories: programming smalltalk
 ---
 
+In the [previous lesson][previous-post] we talked about widgets.
+
 For now we have created a web application with a child widget that
 generate a static HTML. Now we need to receive and send data to make
 this application interactive.
@@ -78,4 +80,7 @@ Now you can try the URL:
 [http://localhost:7070/leonardoBlog/widgetExample](http://localhost:7070/leonardoBlog/widgetExample)
 to see that our implementation is working.
 
+The next post is [here][next-post].
+
 [previous-post]: {% post_url 2014-02-16-iliad-lesson-three %}
+[next-post]: {% post_url 2014-02-18-iliad-framework-lesson-five %}
