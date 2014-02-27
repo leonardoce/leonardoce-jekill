@@ -57,9 +57,10 @@ updatePage: aPage
       content: 'IE=edge'.
     aPage head meta
       name: 'viewport';
+	  content: 'width=device-width, initial-scale=1'.
     
     "We want a title for our app"
-    aPage head title: 'A project note-taking app'content: 'width=device-width, initial-scale=1'.
+    aPage head title: 'A project note-taking app'
 {% endhighlight %}
 
 The `updatePage:` method get called when the page has been constructed
