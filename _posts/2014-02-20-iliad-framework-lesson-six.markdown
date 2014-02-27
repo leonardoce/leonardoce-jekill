@@ -22,7 +22,10 @@ ILAnchorElement useAjaxOnlyForActions: nil
 {% endhighlight %}
 
 Now disable Javascript in your browser and see your application
-working application without browser. This is part of the Iliad
+working application with Javascript disabled. This is part of the Iliad
 goodness!
 
+The next post is [here][next-post]
+
 [previous-post]: {% post_url 2014-02-18-iliad-framework-lesson-five %}
+[next-post]: {% post_url 2014-02-26-iliad-memory-directory %}
