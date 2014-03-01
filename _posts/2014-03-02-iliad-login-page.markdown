@@ -189,7 +189,6 @@ you should see the following result:
 
 Yeah! We succesfuly build our first form, even with error checking.
 
-
 [lesson-three]: {% post_url 2014-02-16-iliad-lesson-three %}
 [previous-post]: {% post_url 2014-02-27-iliad-framework-customizing-page %}
 [bootstrap-js]: http://getbootstrap.com
