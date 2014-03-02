@@ -126,4 +126,5 @@ Check that also the following URLS get served:
 Now you are sure that everything is working.
 
 [previous-post]: {% post_url 2014-02-20-iliad-framework-lesson-six %}
+[next-post]: {% post_url 2014-02-26-iliad-memory-directory %}
 [bootstrap-js]: http://getbootstrap.com

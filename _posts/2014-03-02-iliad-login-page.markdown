@@ -188,6 +188,10 @@ you should see the following result:
 ![Project notes login form]({{ site.url }}/assets/pnotes-login.png)
 
 Yeah! We succesfuly build our first form, even with error checking.
+When the `loginError` is not empty the form looks like this:
+
+![Project notes login form error]({{ site.url }}/assets/pnotes-login-error.png)
+
 
 [lesson-three]: {% post_url 2014-02-16-iliad-lesson-three %}
 [previous-post]: {% post_url 2014-02-27-iliad-framework-customizing-page %}
