@@ -125,6 +125,8 @@ Check that also the following URLS get served:
 
 Now you are sure that everything is working.
 
+The next post is [here][next-post].
+
 [previous-post]: {% post_url 2014-02-20-iliad-framework-lesson-six %}
-[next-post]: {% post_url 2014-02-26-iliad-memory-directory %}
+[next-post]: {% post_url 2014-03-01-iliad-login-page %}
 [bootstrap-js]: http://getbootstrap.com
