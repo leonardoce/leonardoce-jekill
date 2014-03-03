@@ -6,7 +6,7 @@ categories: programming smalltalk
 ---
 
 In the [previous post][previous-post] we build a login form. In that
-login form we included a "Register" link and so we must provide a way
+form we included a "Register" link and so we must provide a way
 to make our users entries persistent.
 
 Using Smalltalk the image is already persistent, saved every time you
@@ -242,7 +242,7 @@ testDeleteAllUsers
 Well... if everything is ok you have all units test working correctly
 and you can be happy!
 
-![PnUserDAO test cases]({{ site.url }}/assets/pnotes-dao-tests.png)
+![PnUserDAO test cases]({{ site.url }}/assets/pnotes-user-dao-tests.png)
 
 [image-based-persistence]: http://onsmalltalk.com/simple-image-based-persistence-in-squeak/
 [previous-post]: {% post_url 2014-03-02-iliad-login-page %}
