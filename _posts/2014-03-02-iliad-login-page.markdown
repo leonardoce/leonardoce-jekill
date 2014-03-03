@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iliad Framework, the login form"
-date:   2014-03-01 21:28:24
+date:   2014-03-02 21:28:24
 categories: programming smalltalk
 ---
 
@@ -192,7 +192,9 @@ When the `loginError` is not empty the form looks like this:
 
 ![Project notes login form error]({{ site.url }}/assets/pnotes-login-error.png)
 
+The next post is [here][next-post].
 
 [lesson-three]: {% post_url 2014-02-16-iliad-lesson-three %}
 [previous-post]: {% post_url 2014-02-27-iliad-framework-customizing-page %}
 [bootstrap-js]: http://getbootstrap.com
+[next-post]: {% post_url 2014-03-03-users-dao-intermezzo %}
