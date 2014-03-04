@@ -244,5 +244,8 @@ and you can be happy!
 
 ![PnUserDAO test cases]({{ site.url }}/assets/pnotes-user-dao-tests.png)
 
+The next post is [here][next-post].
+
 [image-based-persistence]: http://onsmalltalk.com/simple-image-based-persistence-in-squeak/
 [previous-post]: {% post_url 2014-03-02-iliad-login-page %}
+[next-post]: {% post_url 2014-03-04-checking-emails %}
