@@ -72,5 +72,5 @@ Voila'! We have integrated Bootstrap JS.
 The next post is [here][next-post].
 
 [previous-post]: {% post_url 2014-02-26-iliad-memory-directory %}
-[next-post]: {% post_url 2014-03-01-iliad-login-page %}
+[next-post]: {% post_url 2014-03-02-iliad-login-page %}
 [post-about-webapp]: {% post_url 2014-02-13-iliad-lesson-one %}
