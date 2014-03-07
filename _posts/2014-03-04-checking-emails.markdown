@@ -59,5 +59,8 @@ testEmailNotOk
 
 The tests should all be working.
 
+The next post is [here][next-post].
+
 [previous-post]: {% post_url 2014-03-03-users-dao-intermezzo %}
+[next-post]: {% post_url 2014-03-07-pnotes-registration-page %}
 [email-regexp-site]: http://www.regular-expressions.info/index.html
