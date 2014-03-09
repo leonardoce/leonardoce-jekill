@@ -163,4 +163,7 @@ block passed to `show:onAnswer:`.
 This block redirect the browser to the `notes` controller, which will
 handle the notes creation and visualization proces.
 
+The next post is [here][next-post].
+
 [previous-post]: {% post_url 2014-03-04-checking-emails %}
+[next-post]: {% post_url 2014-03-09-pnotes-registration-page-2 %}
