@@ -64,5 +64,5 @@ page. The controller name, `register`, match with the `href` in the
 login page.
 
 [previous-post]: {% post_url 2014-03-07-pnotes-registration-page %}
-
+[next-post]: {% post_url 2014-03-13-pnotes-status-widget %}
 
