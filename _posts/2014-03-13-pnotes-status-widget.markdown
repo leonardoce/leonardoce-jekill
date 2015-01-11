@@ -65,10 +65,6 @@ ILApplication subclass: #LcBlogProjectNotes
 !LcBlogProjectNotes methodsFor: 'accessing'!
 currentUserWidget
 	^ currentUserWidget ifNil: [ currentUserWidget := PnCurrentUserHeading new ]
-
-!LcBlogProjectNotes methodsFor: 'accessing'!
-children
-	^ Array with: self loginWidget with:self registrationWidget with:self currentUserWidget 
 {% endhighlight %}
 
 Now we create a new `notes` controller:

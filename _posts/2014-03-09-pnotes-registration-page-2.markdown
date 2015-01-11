@@ -29,16 +29,6 @@ registrationWidget
 	^ registrationWidget ifNil: [ registrationWidget := PnCreateUser new ]
 {% endhighlight %}
 
-The new widget must be registred in the `children` method of the
-application:
-
-{% highlight smalltalk %}
-!LcBlogProjectNotes methodsFor: 'accessing'!
-children
-	^ Array with: self loginWidget with:self registrationWidget
-{% endhighlight %}
-
-
 We also create accessors for the current user instance variable:
 
 {% highlight smalltalk %}

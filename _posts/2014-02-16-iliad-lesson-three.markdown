@@ -48,39 +48,7 @@ composed by widgets I was actually right because also the
 `ILApplication` class extends `ILWidget`!
 
 To attach out widget to the application we will add an instance
-variable to the application class to store the widget instance:
-
-Every page server by the Iliad
-framework is composed by widgets, as widget are written on the page as
-HTML tags. A widget is:
-
-- *stateful* and this means that the instace variables of the widget
-  class are conserved between HTTP requests in the session state;
-
-- *reusable* every widget class can (and will) be used many times even
-  in the same session using multiple widgets;
-
-- *a container* of child widgets.
-
-Every widget is a subclass of the `ILWidget` class. Let's create out
-first widget:
-
-{% highlight smalltalk %}
-ILWidget subclass: #LcCounterWidget
-    instanceVariableNames: ''
-    classVariableNames: ''
-    poolDictionaries: ''
-    category: 'LeonardoBlog'
-{% endhighlight %}
-
-The contents of a widget must be defined overriding the `contents`
-method of the widget class:
-
-{% highlight smalltalk %}
-"LcCounterWidget>>firstWidget protocol building"
-contents
-	^ [ :e | e p text:'I''m a widget!' ]
-{% endhighlight %}
+variable to the application class to store the widget instance.
 
 Create a new accessor for the `firstWidget` component that create the
 instance if needed:
@@ -89,16 +57,6 @@ instance if needed:
 "LcBlogHelloIliad>>firstWidget protocol accessing"
 firstWidget
     ^ firstWidget ifNil: [ firstWidget := LcCounterWidget new ]
-{% endhighlight %}
-
-Override the `children` method to return a collection holding the
-widgets of the application class (this is needed for the event
-handling code to work correctly):
-
-{% highlight smalltalk %}
-"LcBlogHelloIliad>>children protocol accessing"
-children
-    ^ Array with:firstWidget
 {% endhighlight %}
 
 Now I will create a new controller just to show how the widget can be
